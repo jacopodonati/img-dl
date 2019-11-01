@@ -6,13 +6,13 @@
     "description": "A simple extension to download strips and backgrounds from selected websites.",
     "content_scripts": [
         {
-            "matches": [
-                "*://*.bing.com/*"
-            ],
-            "js": [
-                "lib/jquery-3.4.1.min.js",
-                "main.js"
-            ]
+            "matches": [ "*://*.bing.com/*" ],
+            "js": [ "sites/bing/bing.js" ],
+            "css": [ "sites/bing/bing.css" ],
+            "run_at": "document_idle"
         }
+    ],
+    "web_accessible_resources": [
+        "sites/*/*.png"
     ]
 }
