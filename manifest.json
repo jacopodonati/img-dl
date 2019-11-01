@@ -10,6 +10,12 @@
             "js": [ "sites/bing/bing.js" ],
             "css": [ "sites/bing/bing.css" ],
             "run_at": "document_idle"
+        },
+        {
+            "matches": [ "*://*.xkcd.com/*" ],
+            "js": [ "sites/xkcd/xkcd.js" ],
+            "css": [ "sites/xkcd/xkcd.css" ],
+            "run_at": "document_idle"
         }
     ],
     "web_accessible_resources": [
