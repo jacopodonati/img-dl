@@ -4,15 +4,13 @@ A simple browser addon that downloads images from sites.
 
 ## Compatible sites
 
-For the moment, support is planned for this web sites:
+For the moment, it supports these websites:
 
 ### Backgrounds
 
-- Bing
+- [Bing](https://www.bing.com): download button on the bottom right
+- [Earth View by Google](https://earthview.withgoogle.com): changed download link inside the menu
 
 ### Comics
 
-- Calvin and Hobbes
-- Dilbert
-- Oglaf
-- xkcd
+- [xkcd](https://xkcd.com): download button inside the nevigation toolbar
