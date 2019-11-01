@@ -41,9 +41,7 @@ var config = {
 };
 
 var callback = function (mutationsList) {
-    for (var mutation of mutationsList) {
-        update_url();
-    }
+    update_url();
 };
 var observer = new MutationObserver(callback);
 observer.observe(targetNode, config);
