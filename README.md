@@ -14,4 +14,5 @@ For the moment, support is planned for this web sites:
 
 - Calvin and Hobbes
 - Dilbert
+- Oglaf
 - xkcd
