@@ -34,7 +34,6 @@
         {
             "matches": [ "*://*.xkcd.com/*" ],
             "js": [ "sites/xkcd/xkcd.js" ],
-            "css": [ "sites/xkcd/xkcd.css" ],
             "run_at": "document_idle"
         }
     ],
