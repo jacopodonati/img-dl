@@ -14,4 +14,5 @@ For the moment, it supports these websites:
 ### Comics
 
 - [Dilbert](https://www.dilbert.com): download link on top of the image.
-- [xkcd](https://xkcd.com): download button inside the nevigation toolbar.
+- [GoComics](https://www.gocomics.com): download button just below the calendar navigation.
+- [xkcd](https://xkcd.com): download button inside the navigation toolbar.

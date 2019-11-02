@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "author": "Jacopo Donati",
     "name": "img-dl",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "description": "A simple extension to download strips and backgrounds from selected websites.",
     "content_scripts": [
         {
@@ -20,6 +20,11 @@
         {
             "matches": [ "*://earthview.withgoogle.com/*" ],
             "js": [ "sites/earth_view/earth_view.js" ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": [ "*://*.gocomics.com/*/*" ],
+            "js": [ "sites/gocomics/gocomics.js" ],
             "run_at": "document_idle"
         },
         {
