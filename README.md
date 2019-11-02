@@ -4,6 +4,8 @@ A simple browser addon that downloads images from sites. It will soon be release
 
 When possible, it tries to use the `download` attribute so the image will be automatically downloaded, but it rarely works.  If you want to see what I mean, try it on Bing and you'll see the image won't open as a new URL, but it will be downloaded.
 
+The icon is based on a vector image by [Freepik](https://www.flaticon.com/authors/freepik). 
+
 ## Supported sites
 
 For the moment, it supports these websites:

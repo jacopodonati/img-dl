@@ -4,6 +4,10 @@
     "name": "img-dl",
     "version": "1.0.5",
     "description": "A simple extension to download strips and backgrounds from selected websites.",
+    "icons": {
+        "48": "icons/icon.svg",
+        "96": "icons/icon.svg"
+    },
     "content_scripts": [
         {
             "matches": [ "*://*.bing.com/*" ],
