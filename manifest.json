@@ -2,13 +2,19 @@
     "manifest_version": 2,
     "author": "Jacopo Donati",
     "name": "img-dl",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A simple extension to download strips and backgrounds from selected websites.",
     "content_scripts": [
         {
             "matches": [ "*://*.bing.com/*" ],
             "js": [ "sites/bing/bing.js" ],
             "css": [ "sites/bing/bing.css" ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": [ "*://*.dilbert.com/*" ],
+            "js": [ "sites/dilbert/dilbert.js" ],
+            "css": [ "sites/dilbert/dilbert.css" ],
             "run_at": "document_idle"
         },
         {

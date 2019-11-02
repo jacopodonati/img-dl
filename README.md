@@ -8,9 +8,10 @@ For the moment, it supports these websites:
 
 ### Backgrounds
 
-- [Bing](https://www.bing.com): download button on the bottom right
-- [Earth View by Google](https://earthview.withgoogle.com): changed download link inside the menu
+- [Bing](https://www.bing.com): download button on the bottom right.
+- [Earth View by Google](https://earthview.withgoogle.com): changed download link inside the menu.
 
 ### Comics
 
-- [xkcd](https://xkcd.com): download button inside the nevigation toolbar
+- [Dilbert](https://www.dilbert.com): download link on top of the image.
+- [xkcd](https://xkcd.com): download button inside the nevigation toolbar.
