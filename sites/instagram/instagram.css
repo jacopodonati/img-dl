@@ -1,0 +1,25 @@
+.download_span1 {
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    display: block;
+    background-image: url('./download_arrow.png'), url('chrome-extension://__MSG_@@extension_id__/sites/instagram/download_arrow.png');    
+}
+
+.download_span2 {
+    display: inline-block;
+}
+
+.download_a {
+    min-height: 40px;
+    min-width: 40px;
+    align-items: center;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    flex-grow: 0;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0;
+}

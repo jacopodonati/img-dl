@@ -21,6 +21,10 @@ For the moment, it supports these websites:
 - [GoComics](https://www.gocomics.com): download button just below the calendar navigation. (tested on Calvin and Hobbes, should work elsewhere.)
 - [xkcd](https://xkcd.com): download button inside the navigation toolbar.
 
+### Other
+
+- [Instagram](https://www.instagram.com): download button between comment and share buttons.  If it doesn't show up, reload the page.  It's not perfect, but it kinda works.
+
 ## Add more sites
 
 If you want `img-dl` to work on other sites, you can open a ticket or implement it yourself and send a pull request.
