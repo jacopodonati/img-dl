@@ -2,7 +2,7 @@
 
 A simple browser addon that downloads images from sites. It will soon be released as a Firefox extension, and it's tested against Firefox and Firefox only.  I plan to test it in Chrome in the near future.
 
-When possible, it tries to use the `download` attribute so the image will be automatically downloaded, but it rarely works.  If you want to see what I mean, try it on Bing and you'll see the image won't open as a new URL, but it will be downloaded.
+When possible, it tries to use the `download` attribute so the image will be automatically downloaded, but it rarely works on Firefox.  The problem is that on Firefox Same-Origin is enforced (see [bug no. 874009](https://bugzilla.mozilla.org/show_bug.cgi?id=874009)).  If you want to see what I mean, try it on Bing and you'll see the image won't open as a new URL, but it will be downloaded.
 
 The icon is based on a vector image by [Freepik](https://www.flaticon.com/authors/freepik). 
 

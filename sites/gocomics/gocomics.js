@@ -4,7 +4,7 @@ if (location.pathname.match(regex)) {
     var comic_url = comic.src;
     regex = /[a-zA-Z\-0-9]+/g;
     var path_to_comic_title = location.pathname.match(regex);
-    var comic_title = path_to_comic_title[0] + '_' + path_to_comic_title[1] + path_to_comic_title[2] + path_to_comic_title[3];
+    var comic_title = path_to_comic_title[0] + '_' + path_to_comic_title[1] + path_to_comic_title[2] + path_to_comic_title[3] + '.jpg';
 
     var button_text = document.createTextNode('Download This Comic');
     var button = document.createElement('a');
