@@ -2,11 +2,14 @@
     "manifest_version": 2,
     "author": "Jacopo Donati",
     "name": "img-dl",
-    "version": "1.6.1",
+    "version": "1.6.3",
     "description": "A simple extension to download strips and backgrounds from selected websites.",
     "icons": {
-        "48": "icons/icon.svg",
-        "96": "icons/icon.svg"
+        "16": "icons/icon_16.png",
+        "32": "icons/icon_32.png",
+        "48": "icons/icon_48.png",
+        "96": "icons/icon_96.png",
+        "128": "icons/icon_128.png"
     },
     "content_scripts": [
         {
@@ -28,7 +31,7 @@
         },
         {
             "matches": [ "*://*.gocomics.com/*/*" ],
-            "js": [ "sites/gocomics/gocomics.js" ],
+            "js": [ "sites/gocomics/gocomics.js", "sites/gocomics/jszip.min.js" ],
             "run_at": "document_idle"
         },
         {
@@ -44,6 +47,7 @@
         }
     ],
     "web_accessible_resources": [
-        "sites/*/*.png"
+        "sites/*/*.png",
+        "icons/*.svg"
     ]
 }
