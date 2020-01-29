@@ -1,8 +1,13 @@
 # Changelog
 
+## 1.6.5
+
+- New icon.
+- Bing has now a download icon that blends well.
+
 ## 1.6.4
 
-- Bing now really works. I'll gradually change all download buttons with the new icon.
+- Bing now really works. ~~I'll gradually change all download buttons with the new icon.~~
 - Comic lists _don't_ work. Sorry.
 
 ## 1.6.3
