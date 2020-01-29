@@ -31,7 +31,7 @@
         },
         {
             "matches": [ "*://*.gocomics.com/*/*" ],
-            "js": [ "sites/gocomics/gocomics.js", "sites/gocomics/jszip.min.js", "sites/gocomics/jszip-utils.min.js" ],
+            "js": [ "sites/gocomics/gocomics.js"],
             "run_at": "document_idle"
         },
         {
